@@ -1,0 +1,263 @@
+{
+    "basics": {
+      "name": "Jhon Anderson Briones Coto",
+      "label": "Full Stack Developer",
+      "image": "/me.webp",
+      "email": "joanbric@gmail.com",
+      "phone": "+44 7470 494315",
+      "url": "https://joanbric.dev",
+      "summary": "Full-stack web developer with experience in Svelte and SvelteKit, and familiarity with React and Next.js. Proficient in relational and non-relational databases. Passionate about web development and the internet. I am a highly motivated and results-oriented developer in delivering high-quality web applications. I am passionate about learning new technologies and solving complex problems. I am also a team player and am always willing to help others.",
+      "location": {
+        "address": "",
+        "postalCode": "NE34 0PQ",
+        "city": "South Shields",
+        "countryCode": "GB",
+        "region": "United Kingdom"
+      },
+      "profiles": [
+        {
+          "network": "LinkedIn",
+          "username": "joanbric",
+          "url": "https://linkedin.com/in/joanbric"
+        },
+        {
+          "network": "GitHub",
+          "username": "joanbric",
+          "url": "https://github.com/joanbric"
+        }
+      ]
+    },
+    "work": [
+      {
+        "name": "Servicios Profesional en Computación",
+        "position": "IT Technician",
+        "url": null,
+        "startDate": "2015-02-01",
+        "endDate": "2016-04-01",
+        "summary": "As an IT Technician for a consulting firm, I was responsible for maintaining the computer equipment and peripherals, as well as the information networks, for a variety of clients.",
+        "highlights": [
+          ""
+        ]
+      },
+      {
+          "name": "Servicios Profesional en Computación",
+          "position": "Software Developer in Visual Basic .NET",
+          "url": null,
+          "startDate": "2016-04-01",
+          "endDate": "2019-02-01",
+          "summary": "As a Software Developer in Visual Basic .NET, I built and collabored with software solutions for clients, including a warehouse inventory program, an accounting system, and utilities to adapt a POS system.",
+          "highlights": [
+            ""
+          ]
+        }
+      
+    ],
+    "volunteer": [{
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": [
+        "Awarded 'Volunteer of the Month'"
+      ]
+    }],
+    "education": [{
+      "institution": "Instituto San Jose, La Salle",
+      "url": "null",
+      "area": "IT Technician",
+      "studyType": "College",
+      "startDate": "2008-02-01",
+      "endDate": "2013-11-01",
+      "score": "",
+      "courses": [
+        "DB1101 - Basic SQL"
+      ]
+    }],
+    "awards": [{
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }],
+    "certificates": [{
+      "name": "Ultimate HTML and CSS Course.",
+      "date": "2021-06-26",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/joanbric/curso/2008-html-css/diploma/detalle/"
+    },
+    {
+      "name": "Professional Git and GitHub Course.",
+      "date": "2020-09-09",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/joanbric/curso/1557-git-github/diploma/detalle/"
+    },
+    {
+      "name": "Foundations of Node.js Course.",
+      "date": "2020-10-22",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/joanbric/curso/1759-fundamentos-node/diploma/detalle/"
+    }
+  ],
+    "publications": [{
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }],
+    "skills": [
+      {
+        "name": "HTML",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend"
+        ]
+      },
+      {
+        "name": "CSS",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Diseño Responsive"
+        ]
+      },
+      {
+        "name": "JavaScript",
+        "level": "Master",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "Backend", "Fullstack"
+        ]
+      },
+      {
+          "name": "Node",
+          "level": "Avanzado",
+          "keywords": [
+              "Desarrollo Web", "Backend", "JavaScript", "Servidor"
+          ]
+      },
+      {
+        "name": "Svelte",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Superset"
+        ]
+      },
+      {
+          "name": "SvelteKit",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
+          ]
+        },
+      {
+        "name": "MySQL",
+        "level": "Avanzado",
+        "keywords": [
+          "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
+        ]
+      },
+      {
+        "name": "Git",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente"
+        ]
+      },
+      {
+        "name": "GitHub",
+        "level": "Avanzado",
+        "keywords": [
+          "Control de Versiones", "Colaboración", "Código Fuente", "Git"
+        ]
+      },
+      {
+        "name": "Next.js",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
+        ]
+      },
+      {
+        "name": "React",
+        "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+          "name": "Astro",
+          "level": "Avanzado",
+          "keywords": [
+            "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+          ]
+        }
+    ],
+    "languages": [
+      {
+        "language": "Spanish",
+        "fluency": "Native speaker"
+      },
+      {
+        "language": "English",
+        "fluency": "Medium"
+      }
+    ],
+    "interests": [{
+      "name": "Wildlife",
+      "keywords": [
+        "",
+        ""
+      ]
+    }],
+    "references": [{
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }],
+    "projects": [
+      {
+        "name": "NameForMy",
+        "isActive": true,
+        "description": "Generator of existing or unique names that fit your specifications with the help of AI.",
+        "highlights": [
+          "Create your own name",
+          "Developing"
+        ],
+        "url": "",
+        "repo": "https://github.com/joanbric/nameformy"
+      },
+      {
+        "name": "WordMiner",
+        "isActive": false,
+        "description": "Tool that helps you find the definition of a word in a specific context.",
+        "highlights": [
+          "Tool to study English",
+          "ORC and GPT"
+        ],
+        "url": "",
+        "repo": "https://github.com/joanbric/wordminer"
+      },
+      {
+        "name": "Guiame app",
+        "isActive": true,
+        "description": "I built Guiame App to empower individuals to conquer complex transportation systems like London's with ease.",
+        "highlights": [
+          "Navigate confidently",
+          "Public transport"
+        ],
+        "url": "",
+        "repo": "https://github.com/joanbric/guiame"
+      },
+      {
+        "name": "WeatheRash",
+        "isActive": true,
+        "description": "A simple weather web app with animation.",
+        "highlights": [
+          "Weather",
+          "CSS Animation"
+        ],
+        "url": "",
+        "repo": "https://github.com/joanbric/WeatheRash"
+      }
+    ]
+  }

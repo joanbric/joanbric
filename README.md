@@ -1,11 +1,29 @@
-<h1 align="center"> 👋 Hi!, I'm Jhon A. Briones (@joanbric) </h1>
+# ¡Hey, hola! 👋
 
-- 👀 I’m interested in the web development and geek world.
-- 🌱 I’m currently learning JavaScript and all this friends.
+¡Bienvenido/a a mi rincón digital en GitHub! Soy Jhon Anderson Briones, un entusiasta de la tecnología y un amante del código. 🚀
 
-- 📫 How to reach me?, just send me a msg to joanbric@gmail.com
+## 🧠 Sobre mí
 
-<!---
-joanbric/joanbric is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
+- 👩‍💻 Actualmente estoy explorando el universo de javascript y la web en general, mientras navego por el emocionante mundo del desarrollo de software.
+- 🎨 Me encanta experimentar con codigo para hacer proyectos que me parecen interesantes.
+- 💡 Siempre estoy buscando nuevas formas de aprender y crecer como desarrollador.
+
+## 💼 Proyectos Destacados
+✍️ En desarrollo...
+
+## 📊 Mis estadisticas
+
+![Estadísticas de GitHub](https://github-readme-stats.vercel.app/api?username=joanbric&show_icons=true&theme=midnight-purple)
+
+## 🎨 Lenguajes de Programación que suelo usar
+
+![Top Lenguajes](https://github-readme-stats.vercel.app/api/top-langs/?username=joanbric&layout=compact&theme=midnight-purple)
+
+## 📫 Contacto
+
+¡Hablemos! Encuéntrame en:
+
+- [Correo electrónico](mailto:joanbric@gmail.com)
+- [LinkedIn](https://www.linkedin.com/joanbric)
+
+¡Gracias por pasar por aquí! Espero que encuentres algo interesante entre líneas de código. 😊
