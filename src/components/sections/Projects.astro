@@ -1,7 +1,8 @@
 ---
 import { projects } from '@cv'
 import Icon from '@components/Icon.astro'
-import IconLink from '@icons/Link.astro'
+import IconRepo from '@icons/Github.astro'
+import IconVisit from '@icons/Visit.astro'
 ---
 
 <section id="projects" class="py-10 xl:px-36">
@@ -12,7 +13,7 @@ import IconLink from '@icons/Link.astro'
         <figure class="md:col-span-2">
           <img class="rounded-2xl" src={p.coverImage} alt={p.name} />
         </figure>
-        <section class="md:col-span-3">
+        <section class="relative md:col-span-3">
           <header class="mb-3">
             <h3 class="text-xl font-bold">{p.name}</h3>
           </header>
@@ -22,7 +23,7 @@ import IconLink from '@icons/Link.astro'
               <li class="inline rounded-full bg-purple-950 px-3 py-1">{h}</li>
             ))}
           </ul>
-          <footer class="flex justify-between mt-6">
+          <footer class="flex justify-between mt-8 md:absolute md:bottom-0 md:w-full">
             <ul class="flex gap-3">
               {p.techStack.map((t) => (
                 <li>
@@ -31,12 +32,12 @@ import IconLink from '@icons/Link.astro'
               ))}
             </ul>
             <nav>
-              <a class="border-2 rounded-md px-3 py-2 mr-4 text-nowrap" href={p.repo} target="_blank">
-                Repo <figure class="w-6 h-6 inline-block align-middle"><IconLink /></figure>
+              <a class="border-[1px] rounded-md px-2 py-2 mr-4 text-nowrap" href={p.repo} target="_blank">
+                Repo <figure class="w-6 h-6 inline-block align-middle"><IconRepo class='stroke-white'/></figure>
               </a>
               {p.url && (
-                <a class="border-2 rounded-md px-3 py-2 text-nowrap" href={p.url} target="_blank">
-                  Visit <figure class="w-6 h-6 inline-block align-middle"><IconLink /></figure>
+                <a class="border-[1px] rounded-md px-2 py-2 text-nowrap" href={p.url} target="_blank">
+                  Visit <figure class="w-7 h-7 inline-block align-middle"><IconVisit /></figure>
                 </a>
               )}
             </nav>
