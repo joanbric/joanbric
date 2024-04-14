@@ -16,7 +16,7 @@ import OpenMap from './icons/OpenMap.astro'
 import OpenWeather from './icons/OpenWeather.astro'
 import Algolia from './icons/Algolia.astro'
 import LlamaAI from '@icons/LlamaAI.astro'
-
+import HTML from '@icons/HTML.astro'
 
 const Icons: Record<string, any> = {
   Github,
@@ -32,7 +32,8 @@ const Icons: Record<string, any> = {
   OpenMap,
   OpenWeather,
   Algolia,
-  LlamaAI
+  LlamaAI,
+  HTML
 }
 
 const { name } = Astro.props
@@ -52,8 +53,8 @@ const Icono = Icons[name]
 
 <style>
   figure {
-    height: 2.3rem;
-    width: 2.3rem;
+    height: 2rem;
+    width: 1.5rem;
   }
   figure > *{
     height: 100%;
