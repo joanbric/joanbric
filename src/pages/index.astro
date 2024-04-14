@@ -1,13 +1,22 @@
 ---
-import Layout from '../layouts/Layout.astro';
+import Layout from '../layouts/Layout.astro'
+import Hero from '@components/sections/Hero.astro'
+import Header from '@components/Header.astro'
+import Experience from '@components/sections/Experience.astro'
+import Projects from '@components/sections/Projects.astro'
+import Works from '@components/sections/Works.astro'
+import About from '@components/sections/About.astro'
 ---
 
-<Layout title="Welcome to Astro." description="Description">
-	<main>
-        <h1>Hi!, I'm <span class="">Jhon</span> 👋</h1>
-	</main>
+<Layout title="Jhon A. Briones" description="Welcome to Jhon's personal digital space">
+    <Header />
+  <main class="w-full max-w-[1700px] m-auto px-4 ">
+    <Hero />
+    <Works />
+    <Experience />
+    <Projects />
+    <About />
+  </main>
 </Layout>
 
-<style>
-	
-</style>
+<style></style>

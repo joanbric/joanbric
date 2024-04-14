@@ -2,7 +2,7 @@
     "basics": {
       "name": "Jhon Anderson Briones Coto",
       "label": "Full Stack Developer",
-      "image": "/me.webp",
+      "image": "/imgs/me.png",
       "email": "joanbric@gmail.com",
       "phone": "+44 7470 494315",
       "url": "https://joanbric.dev",
@@ -223,7 +223,9 @@
           "Create your own name",
           "Developing"
         ],
-        "url": "",
+        "techStack": ["SvelteKit", "CSS", "OpenAI"],
+        "coverImage": "/projects-covers/nameformy.com-mockup.jpg",
+        "url": "https://nameformy.com",
         "repo": "https://github.com/joanbric/nameformy"
       },
       {
@@ -234,7 +236,9 @@
           "Tool to study English",
           "ORC and GPT"
         ],
-        "url": "",
+        "techStack": ["SvelteKit", "LlamaAI", "Tesseract", "CSS"],
+        "coverImage": "/projects-covers/wordminer-mockup.jpg",
+        "url": null,
         "repo": "https://github.com/joanbric/wordminer"
       },
       {
@@ -245,7 +249,9 @@
           "Navigate confidently",
           "Public transport"
         ],
-        "url": "",
+        "techStack": ["SvelteKit", "TFLAPI", "JavaScript", "Algolia", "OpenMap", "CSS"],
+        "coverImage": "/projects-covers/wordminer-mockup.jpg",
+        "url": null,
         "repo": "https://github.com/joanbric/guiame"
       },
       {
@@ -256,7 +262,9 @@
           "Weather",
           "CSS Animation"
         ],
-        "url": "",
+        "techStack": ["JavaScript", "OpenWeather", "HTML", "CSS"],
+        "coverImage": "/projects-covers/wordminer-mockup.jpg",
+        "url": null,
         "repo": "https://github.com/joanbric/WeatheRash"
       }
     ]
