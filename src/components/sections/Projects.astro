@@ -11,7 +11,7 @@ import IconVisit from '@icons/Visit.astro'
     projects.map((p) => (
       <article class="mb-20 grid grid-cols-1 gap-10 lg:grid-cols-5 ">
         <figure class="md:col-span-2">
-          <img class="rounded-2xl" src={p.coverImage} alt={p.name} />
+          <img class="rounded-2xl" loading="lazy" src={p.coverImage} alt={p.name} />
         </figure>
         <section class="relative md:col-span-3">
           <header class="mb-3">
@@ -23,7 +23,7 @@ import IconVisit from '@icons/Visit.astro'
               <li class="inline rounded-full bg-purple-950 px-3 py-1">{h}</li>
             ))}
           </ul>
-          <footer class="flex justify-between mt-8 md:absolute md:bottom-0 md:w-full">
+          <footer class="flex justify-between mt-8 lg:absolute lg:bottom-0 lg:w-full">
             <ul class="flex gap-3">
               {p.techStack.map((t) => (
                 <li>
