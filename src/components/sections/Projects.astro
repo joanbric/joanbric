@@ -8,7 +8,7 @@ import IconVisit from '@icons/Visit.astro'
 <section id="projects" class="py-10 xl:px-36">
   <h2 class="mb-10 text-3xl font-bold">👨‍💻 Projects</h2>
   {
-    projects.map((p) => (
+    projects.map((p) => p.isActive ? (
       <article class="mb-20 grid grid-cols-1 gap-10 lg:grid-cols-5 ">
         <figure class="md:col-span-2">
           <img class="rounded-2xl" loading="lazy" src={p.coverImage} alt={p.name} />
@@ -44,6 +44,6 @@ import IconVisit from '@icons/Visit.astro'
           </footer>
         </section>
       </article>
-    ))
+    ) : null) 
   }
 </section>
