@@ -81,7 +81,8 @@
       "awarder": "Company",
       "summary": "There is no spoon."
     }],
-    "certificates": [{
+    "certificates": [
+        {
       "name": "Ultimate HTML and CSS Course.",
       "date": "2021-06-26",
       "issuer": "Platzi",
@@ -230,7 +231,7 @@
       },
       {
         "name": "WordMiner",
-        "isActive": false,
+        "isActive": true,
         "description": "Tool that helps you find the definition of a word in a specific context.",
         "highlights": [
           "Tool to study English",
@@ -243,7 +244,7 @@
       },
       {
         "name": "Guiame app",
-        "isActive": true,
+        "isActive": false,
         "description": "I built Guiame App to empower individuals to conquer complex transportation systems like London's with ease.",
         "highlights": [
           "Navigate confidently",
@@ -256,7 +257,7 @@
       },
       {
         "name": "WeatheRash",
-        "isActive": true,
+        "isActive": false,
         "description": "A simple weather web app with animation.",
         "highlights": [
           "Weather",
@@ -267,5 +268,6 @@
         "url": null,
         "repo": "https://github.com/joanbric/WeatheRash"
       }
-    ]
+    ],
+    "jobs": []
   }
