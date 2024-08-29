@@ -1,0 +1,63 @@
+---
+export interface Props {
+  name: string
+}
+
+import Github from '@icons/Github.astro'
+import Tailwind from '@icons/Tailwind.astro'
+import Svelte from '@icons/Svelte.astro'
+import CSS from '@icons/CSS.astro'
+import OpenAI from '@icons/OpenAI.astro'
+import JavaScript from '@icons/JavaScript.astro'
+import TypeScript from '@icons/TypeScript.astro'
+import TFLAPI from '@icons/TFLAPI.astro'
+import Tesseract from '@icons/Tesseract.astro'
+import OpenMap from './icons/OpenMap.astro'
+import OpenWeather from './icons/OpenWeather.astro'
+import Algolia from './icons/Algolia.astro'
+import LlamaAI from '@icons/LlamaAI.astro'
+import HTML from '@icons/HTML.astro'
+
+const Icons: Record<string, any> = {
+  Github,
+  Tailwind,
+  Svelte,
+  SvelteKit: Svelte,
+  CSS,
+  OpenAI,
+  JavaScript,
+  TypeScript,
+  TFLAPI,
+  Tesseract,
+  OpenMap,
+  OpenWeather,
+  Algolia,
+  LlamaAI,
+  HTML
+}
+
+const { name } = Astro.props
+
+const Icono = Icons[name]
+---
+
+{
+  Icono ? (
+    <figure>
+      <Icono />
+    </figure>
+  ) : (
+    <span>{name}</span>
+  )
+}
+
+<style>
+  figure {
+    height: 2rem;
+    width: 1.5rem;
+  }
+  figure > *{
+    height: 100%;
+    width: 100%;
+  }
+</style>
