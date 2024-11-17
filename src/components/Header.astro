@@ -1,13 +1,39 @@
-<header class="sticky top-5 z-50">
-  <nav class="px-3">
+<header class="sticky top-2 z-50 flex w-11/12 max-w-[600px] overflow-y-visible mx-auto items-center justify-between rounded-full bg-slate-900">
+  <a href="/">
+    <img
+    src="/favicon.svg"
+    width="40"
+    alt="Joan Briones Logo"
+    />
+  </a>
+    <nav
+    class="relative inline w-[80%] mr-2
+  before:absolute before:left-0 before:top-0 before:z-[60] before:h-full before:w-[30%] before:bg-gradient-to-r before:from-slate-900 before:from-20% before:select-none
+  after:absolute after:right-0 after:top-0 after:h-full after:w-[30%] after:bg-gradient-to-l after:from-slate-900 after:from-20% after:select-none"
+  >
     <ul
-      class="flex w-full max-w-[600px] min-w-[300px] mx-auto items-center justify-between rounded-full bg-slate-500/50 px-5 py-2 font-bold backdrop-blur-md"
+      class="flex max-w-full items-center justify-between overflow-x-scroll snap-mandatory snap-x text-nowrap border-y-2 border-slate-400 bg-transparent px-5 py-1 font-bold "
     >
-      <li><a href="#hero">Hero</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li class="hidden"><a href="/blog">Blog</a></li>
+    <li></li>
+      <li class="snap-center"><a href="#hero">Hero</a></li>
+      <li class="snap-center"><a href="#experience">Experience</a></li>
+      <li class="snap-center"><a href="#projects">Projects</a></li>
+      <li class="snap-center"><a href="#about">About Me</a></li>
+    <li></li>
     </ul>
   </nav>
 </header>
+
+<style>
+  ul::-webkit-scrollbar {
+    display: none;
+  }
+  li {
+    display: inline-block;  
+    flex: 0 0 50%;
+    width: 100%;
+    text-align: center;
+    scroll-snap-stop: always;
+    scroll-snap-type: mandatory;
+  }
+</style>
