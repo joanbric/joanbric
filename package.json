@@ -3,11 +3,8 @@
   "version": "1.0.0",
   "description": "¡Bienvenido/a a mi rincón digital en GitHub! Soy Jhon Anderson Briones, un entusiasta de la tecnología y un amante del código. 🚀",
   "main": "index.js",
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
-    "co": "sui-mono commit"
+    "dev": "astro dev"
   },
   "author": "",
   "license": "ISC",
@@ -16,6 +13,7 @@
     "@astrojs/tailwind": "5.1.0",
     "@codemirror/lang-javascript": "6.2.2",
     "@codemirror/theme-one-dark": "6.1.2",
+    "@vercel/speed-insights": "1.1.0",
     "astro": "4.6.1",
     "codemirror": "6.0.1",
     "js-confetti": "0.12.0",
