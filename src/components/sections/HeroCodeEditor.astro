@@ -1,0 +1,48 @@
+
+<div id="editor-container" class="my-auto"></div>
+
+<script>
+  import { EditorView } from 'codemirror'
+import { javascript } from "@codemirror/lang-javascript";
+import { oneDark} from "@codemirror/theme-one-dark";
+import JSConfetti from 'js-confetti';
+
+const jsConfetti = new JSConfetti();
+
+
+const editor = document.getElementById('editor-container') as HTMLDivElement
+
+
+const editorView = new EditorView({
+    doc: 'console log("Perfection is in the details!");',
+    extensions: [javascript(), oneDark],
+    parent: editor,
+
+})
+
+let timeoutID = 0
+
+editor.addEventListener('keyup', () => {
+  console.log('hola')
+clearTimeout(timeoutID)
+timeoutID = setTimeout(async () => {
+  if(editor.textContent !== 'console.log("Perfection is in the details!");') return;
+  console.log('adios')
+
+  await jsConfetti.addConfetti({confettiRadius: 5});
+  jsConfetti.clearCanvas()
+  editorView
+  document.querySelector('div.cm-content')?.setAttribute('contenteditable', 'false')  
+  }, 500)
+})
+
+</script>
+
+<style is:inline>
+  .cm-editor{
+    padding-block: 1rem;
+    padding-inline: 0.5rem;
+    border-radius: 12px;
+    border: 1px solid #55C5FC;
+  }
+</style>

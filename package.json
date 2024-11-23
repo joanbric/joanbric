@@ -12,6 +12,20 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@s-ui/mono": "^2.45.0"
+    "@astrojs/check": "0.5.10",
+    "@astrojs/tailwind": "5.1.0",
+    "@codemirror/lang-javascript": "6.2.2",
+    "@codemirror/theme-one-dark": "6.1.2",
+    "astro": "4.6.1",
+    "codemirror": "6.0.1",
+    "js-confetti": "0.12.0",
+    "tailwindcss": "3.4.3",
+    "typescript": "5.4.5"
+  },
+  "devDependencies": {
+    "prettier": "3.2.5",
+    "prettier-plugin-astro": "0.13.0",
+    "prettier-plugin-tailwindcss": "0.5.13",
+    "standard": "17.1.0"
   }
 }

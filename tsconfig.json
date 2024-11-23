@@ -7,6 +7,7 @@
       "@layouts/*": ["./src/layouts/*"],
       "@icons/*": ["./src/components/icons/*"],
       "@cv": ["./cv.json"],
+      "@libs/*": ["./src/libs/*"]
     }
   }
   
