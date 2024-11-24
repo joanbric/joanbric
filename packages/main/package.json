@@ -4,7 +4,11 @@
   "description": "¡Bienvenido/a a mi rincón digital en GitHub! Soy Jhon Anderson Briones, un entusiasta de la tecnología y un amante del código. 🚀",
   "main": "index.js",
   "scripts": {
-    "dev": "astro dev"
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro check && astro build",
+    "preview": "astro preview",
+    "astro": "astro"
   },
   "author": "",
   "license": "ISC",
