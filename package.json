@@ -7,7 +7,18 @@
   "scripts": {
     "dev": "pnpm -r dev",
     "dev-cv": "pnpm --filter joanbric-cv dev",
-    "dev-web": "pnpm --filter joanbric.com dev"
+    "dev-web": "pnpm --filter joanbric.com dev",
+    "build": "pnpm -r build",
+    "build-cv": "pnpm --filter joanbric-cv build",
+    "build-web": "pnpm --filter joanbric.com build",
+    "preview": "pnpm -r preview",
+    "test": "pnpm -r test",
+    "check": "pnpm -r check",
+    "check-cv": "pnpm --filter joanbric-cv check",
+    "check-web": "pnpm --filter joanbric.com check",
+    "lint": "pnpm -r lint",
+    "lint-cv": "pnpm --filter joanbric-cv lint",
+    "lint-web": "pnpm --filter joanbric.com lint"
   },
   "author": "",
   "license": "ISC",
