@@ -3,27 +3,39 @@
   "version": "1.0.0",
   "description": "¡Bienvenido/a a mi rincón digital en GitHub! Soy Jhon Anderson Briones, un entusiasta de la tecnología y un amante del código. 🚀",
   "main": "index.js",
+  "private": true,
   "scripts": {
-    "dev": "astro dev"
+    "dev": "pnpm -r dev",
+    "dev-cv": "pnpm --filter joanbric-cv dev",
+    "dev-web": "pnpm --filter joanbric.com dev",
+    "build": "pnpm -r build",
+    "build-cv": "pnpm --filter joanbric-cv build",
+    "build-web": "pnpm --filter joanbric.com build",
+    "preview": "pnpm -r preview",
+    "test": "pnpm -r test",
+    "check": "pnpm -r check",
+    "check-cv": "pnpm --filter joanbric-cv check",
+    "check-web": "pnpm --filter joanbric.com check",
+    "lint": "pnpm -r lint",
+    "lint-cv": "pnpm --filter joanbric-cv lint",
+    "lint-web": "pnpm --filter joanbric.com lint"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@astrojs/check": "0.5.10",
-    "@astrojs/tailwind": "5.1.0",
-    "@codemirror/lang-javascript": "6.2.2",
-    "@codemirror/theme-one-dark": "6.1.2",
+    "@astrojs/tailwind": "5.1.2",
+    "@astrojs/check": "0.9.4",
+    "astro": "4.16.14",
     "@vercel/speed-insights": "1.1.0",
-    "astro": "4.6.1",
-    "codemirror": "6.0.1",
-    "js-confetti": "0.12.0",
-    "tailwindcss": "3.4.3",
-    "typescript": "5.4.5"
+    "typescript": "5.7.2"
+
   },
   "devDependencies": {
-    "prettier": "3.2.5",
-    "prettier-plugin-astro": "0.13.0",
-    "prettier-plugin-tailwindcss": "0.5.13",
-    "standard": "17.1.0"
+    "prettier": "3.3.3",
+    "prettier-plugin-astro": "0.14.1",
+    "prettier-plugin-tailwindcss": "0.6.9",
+    "standard": "17.1.2",
+    "tailwindcss": "3.4.15"
+
   }
 }

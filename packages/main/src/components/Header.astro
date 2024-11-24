@@ -1,13 +1,70 @@
-<header class="sticky top-5 z-50">
-  <nav class="px-3">
+<header
+  class="fixed left-1/2 top-2 z-50 flex w-11/12 max-w-[600px] -translate-x-1/2 items-center justify-between overflow-y-visible rounded-full bg-slate-900"
+>
+  <a href="/">
+    <img
+      src="/favicon.svg"
+      width="40"
+      alt="Joan Briones Logo"
+    />
+  </a>
+  <nav
+    class="relative mr-2 inline w-[80%]
+  before:absolute before:left-0 before:top-0 before:z-[60] before:h-full before:w-[30%] before:select-none before:bg-gradient-to-r before:from-slate-900 before:from-20%
+  after:absolute after:right-0 after:top-0 after:h-full after:w-[30%] after:select-none after:bg-gradient-to-l after:from-slate-900 after:from-20%"
+  >
     <ul
-      class="flex w-full max-w-[600px] min-w-[300px] mx-auto items-center justify-between rounded-full bg-slate-500/50 px-5 py-2 font-bold backdrop-blur-md"
+      class="flex max-w-full snap-x snap-mandatory items-center justify-between overflow-x-scroll text-nowrap border-y-2 border-slate-400 bg-transparent px-5 py-1 font-bold"
     >
-      <li><a href="#hero">Hero</a></li>
-      <li><a href="#experience">Experience</a></li>
-      <li><a href="#projects">Projects</a></li>
-      <li><a href="#about">About Me</a></li>
-      <li class="hidden"><a href="/blog">Blog</a></li>
+      <li></li>
+      <li class="snap-center"><a href="#hero">Hero</a></li>
+      <li class="snap-center"><a href="#experience">Experience</a></li>
+      <li class="snap-center"><a href="#projects">Projects</a></li>
+      <li class="snap-center"><a href="#about">About Me</a></li>
+      <li></li>
     </ul>
   </nav>
 </header>
+
+<style>
+  ul::-webkit-scrollbar {
+    display: none;
+  }
+  li {
+    display: inline-block;
+    flex: 0 0 50%;
+    width: 100%;
+    text-align: center;
+    scroll-snap-stop: always;
+    scroll-snap-type: mandatory;
+  }
+</style>
+
+<script>
+  const sections = document.querySelectorAll('main>section')
+
+  const links = document.querySelectorAll('header nav ul li a') as NodeListOf<HTMLAnchorElement>
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const sectionId = entry.target.id
+
+          const selectedLink = document.querySelector(
+            `header nav ul li a[href="#${sectionId}"]`
+          ) as HTMLAnchorElement
+          console.log("🚀 ~ entries.forEach ~ selectedLink:", selectedLink)
+          
+          selectedLink.parentElement?.scrollIntoView({inline: 'center', behavior: 'smooth'})
+        }
+      })
+    },
+    {
+      root: null,
+      threshold: 0.55
+    }
+  )
+
+  sections.forEach((section) => observer.observe(section))
+</script>

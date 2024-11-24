@@ -2,7 +2,7 @@
   "basics": {
     "name": "Jhon Anderson Briones Coto",
     "label": "Full Stack Developer",
-    "image": "/me.webp",
+    "image": "/imgs/me.png",
     "email": "joanbric@gmail.com",
     "phone": "+44 7470 494315",
     "url": "https://joanbric.dev",
@@ -81,7 +81,8 @@
     "awarder": "Company",
     "summary": "There is no spoon."
   }],
-  "certificates": [{
+  "certificates": [
+      {
     "name": "Ultimate HTML and CSS Course.",
     "date": "2021-06-26",
     "issuer": "Platzi",
@@ -223,41 +224,50 @@
         "Create your own name",
         "Developing"
       ],
-      "url": "",
+      "techStack": ["SvelteKit", "CSS", "OpenAI"],
+      "coverImage": "/projects-covers/nameformy.com-mockup.jpg",
+      "url": "https://nameformy.com",
       "repo": "https://github.com/joanbric/nameformy"
     },
     {
       "name": "WordMiner",
-      "isActive": false,
+      "isActive": true,
       "description": "Tool that helps you find the definition of a word in a specific context.",
       "highlights": [
         "Tool to study English",
         "ORC and GPT"
       ],
-      "url": "",
+      "techStack": ["SvelteKit", "LlamaAI", "Tesseract", "CSS"],
+      "coverImage": "/projects-covers/wordminer-mockup.jpg",
+      "url": null,
       "repo": "https://github.com/joanbric/wordminer"
     },
     {
       "name": "Guiame app",
-      "isActive": true,
+      "isActive": false,
       "description": "I built Guiame App to empower individuals to conquer complex transportation systems like London's with ease.",
       "highlights": [
         "Navigate confidently",
         "Public transport"
       ],
-      "url": "",
+      "techStack": ["SvelteKit", "TFLAPI", "JavaScript", "Algolia", "OpenMap", "CSS"],
+      "coverImage": "/projects-covers/wordminer-mockup.jpg",
+      "url": null,
       "repo": "https://github.com/joanbric/guiame"
     },
     {
       "name": "WeatheRash",
-      "isActive": true,
+      "isActive": false,
       "description": "A simple weather web app with animation.",
       "highlights": [
         "Weather",
         "CSS Animation"
       ],
-      "url": "",
+      "techStack": ["JavaScript", "OpenWeather", "HTML", "CSS"],
+      "coverImage": "/projects-covers/wordminer-mockup.jpg",
+      "url": null,
       "repo": "https://github.com/joanbric/WeatheRash"
     }
-  ]
+  ],
+  "jobs": []
 }
