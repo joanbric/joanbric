@@ -3,14 +3,14 @@
     "name": "Jhon Anderson Briones Coto",
     "label": "Full Stack Developer",
     "image": "/imgs/me.png",
-    "email": "@gmail.com",
-    "phone": "+44 7470 ",
+    "email": "joanbric@gmail.com",
+    "phone": "+44 7470 494315",
     "url": "https://joanbric.dev",
     "summary": "Full-stack web developer with experience in Svelte and SvelteKit, and familiarity with React and Next.js. Proficient in relational and non-relational databases. Passionate about web development and the internet. I am a highly motivated and results-oriented developer in delivering high-quality web applications. I am passionate about learning new technologies and solving complex problems. I am also a team player and am always willing to help others.",
     "location": {
       "address": "",
-      "postalCode": "",
-      "city": "",
+      "postalCode": "NE34 0PQ",
+      "city": "South Shields",
       "countryCode": "GB",
       "region": "United Kingdom"
     },
