@@ -12,10 +12,36 @@ const { title, description } = Astro.props
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
-    <meta name="description" content={description} />
-    <meta name="viewport" content="width=device-width" />
-    <link rel="icon" type="image/png" href="/favicon.png" />
+    <meta
+      name="description"
+      content={description}
+    />
+    <meta
+    name="viewport"
+    content="width=device-width"
+    />
+    <link rel="preload" as="font" href="/fonts/anton-reduced.woff2" type="font/woff2" crossorigin="anonymous">
+    <link
+      rel="icon"
+      href="favicon.svg"
+    />
     <title>{title}</title>
+    <style>
+      @tailwind base;
+      @tailwind components;
+      @tailwind utilities;
+
+      @layer base {
+        @font-face {
+          font-family: 'Anton';
+          font-weight: 400;
+          font-style: normal;
+          font-display: swap;
+          src: url(/fonts/anton-reduced.woff2) format('woff2');
+        }
+      }
+
+    </style>
   </head>
   <body>
     <slot />
@@ -25,15 +51,9 @@ const { title, description } = Astro.props
 
 <style>
   body {
-    background: radial-gradient(
-      farthest-corner at 30% 50%,
-      rgba(72, 72, 72, 1) 0%,
-      rgba(7, 0, 23, 1) 47%
-    );
   }
 </style>
 <style is:global>
- 
   html {
     font-family:
       system-ui,
@@ -51,15 +71,18 @@ const { title, description } = Astro.props
     scroll-behavior: smooth;
   }
   @media (prefers-reduced-motion: reduce) {
-     html {
-       scroll-behavior: auto;
-     }
-   }
-
-  h1, h2, h3, h4 {
-      text-wrap: balance;
+    html {
+      scroll-behavior: auto;
+    }
   }
-  p{
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    text-wrap: balance;
+  }
+  p {
     text-wrap: pretty;
   }
 </style>
