@@ -1,25 +1,27 @@
-<header class="fixed top-2 left-1/2 -translate-x-1/2  z-50 flex w-11/12 max-w-[600px] overflow-y-visible items-center justify-between rounded-full bg-slate-900">
+<header
+  class="fixed left-1/2 top-2 z-50 flex w-11/12 max-w-[600px] -translate-x-1/2 items-center justify-between overflow-y-visible rounded-full bg-slate-900"
+>
   <a href="/">
     <img
-    src="/favicon.svg"
-    width="40"
-    alt="Joan Briones Logo"
+      src="/favicon.svg"
+      width="40"
+      alt="Joan Briones Logo"
     />
   </a>
-    <nav
-    class="relative inline w-[80%] mr-2
-  before:absolute before:left-0 before:top-0 before:z-[60] before:h-full before:w-[30%] before:bg-gradient-to-r before:from-slate-900 before:from-20% before:select-none
-  after:absolute after:right-0 after:top-0 after:h-full after:w-[30%] after:bg-gradient-to-l after:from-slate-900 after:from-20% after:select-none"
+  <nav
+    class="relative mr-2 inline w-[80%]
+  before:absolute before:left-0 before:top-0 before:z-[60] before:h-full before:w-[30%] before:select-none before:bg-gradient-to-r before:from-slate-900 before:from-20%
+  after:absolute after:right-0 after:top-0 after:h-full after:w-[30%] after:select-none after:bg-gradient-to-l after:from-slate-900 after:from-20%"
   >
     <ul
-      class="flex max-w-full items-center justify-between overflow-x-scroll snap-mandatory snap-x text-nowrap border-y-2 border-slate-400 bg-transparent px-5 py-1 font-bold "
+      class="flex max-w-full snap-x snap-mandatory items-center justify-between overflow-x-scroll text-nowrap border-y-2 border-slate-400 bg-transparent px-5 py-1 font-bold"
     >
-    <li></li>
+      <li></li>
       <li class="snap-center"><a href="#hero">Hero</a></li>
       <li class="snap-center"><a href="#experience">Experience</a></li>
       <li class="snap-center"><a href="#projects">Projects</a></li>
       <li class="snap-center"><a href="#about">About Me</a></li>
-    <li></li>
+      <li></li>
     </ul>
   </nav>
 </header>
@@ -29,7 +31,7 @@
     display: none;
   }
   li {
-    display: inline-block;  
+    display: inline-block;
     flex: 0 0 50%;
     width: 100%;
     text-align: center;
@@ -37,3 +39,32 @@
     scroll-snap-type: mandatory;
   }
 </style>
+
+<script>
+  const sections = document.querySelectorAll('main>section')
+
+  const links = document.querySelectorAll('header nav ul li a') as NodeListOf<HTMLAnchorElement>
+
+  const observer = new IntersectionObserver(
+    (entries) => {
+      entries.forEach((entry) => {
+        if (entry.isIntersecting) {
+          const sectionId = entry.target.id
+
+          const selectedLink = document.querySelector(
+            `header nav ul li a[href="#${sectionId}"]`
+          ) as HTMLAnchorElement
+          console.log("🚀 ~ entries.forEach ~ selectedLink:", selectedLink)
+          
+          selectedLink.parentElement?.scrollIntoView({inline: 'center', behavior: 'smooth'})
+        }
+      })
+    },
+    {
+      root: null,
+      threshold: 0.55
+    }
+  )
+
+  sections.forEach((section) => observer.observe(section))
+</script>
