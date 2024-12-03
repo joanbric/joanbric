@@ -2,24 +2,20 @@
   "basics": {
     "name": "Jhon Anderson Briones Coto",
     "label": "Full Stack Developer",
-    "image": "/imgs/me.webp",
+    "image": null,
     "email": "joanbric@gmail.com",
-    "phone": "+44 7470 494315",
-    "url": "https://joanbric.dev",
-    "summary": "Full-stack web developer with experience in Svelte and SvelteKit, and familiarity with React and Next.js. Proficient in relational and non-relational databases. Passionate about web development and the internet. I am a highly motivated and results-oriented developer in delivering high-quality web applications. I am passionate about learning new technologies and solving complex problems. I am also a team player and am always willing to help others.",
+    "phone": "+44 7470 494316",
+    "url": "https://www.joanbric.com",
+    "summary": "Full-stack web developer with expertise in Svelte, SvelteKit, and Astro, along with experience in React and Next.js. Proficient in both relational and non-relational databases, I am passionate about crafting high-quality web applications and exploring the ever-evolving landscape of web development. A highly motivated and results-driven professional, I thrive on learning new technologies, solving complex challenges, and contributing to innovative projects. As a collaborative team player, I am always eager to support others and foster a positive development environment.",
     "location": {
       "address": "",
-      "postalCode": "NE34 0PQ",
-      "city": "South Shields",
+      "postalCode": "NE35 9DR",
+      "city": "Boldon Colliery",
       "countryCode": "GB",
       "region": "United Kingdom"
     },
     "profiles": [
-      {
-        "network": "LinkedIn",
-        "username": "joanbric",
-        "url": "https://linkedin.com/in/joanbric"
-      },
+  
       {
         "network": "GitHub",
         "username": "joanbric",
@@ -28,6 +24,47 @@
     ]
   },
   "work": [
+    {
+      "name": "Action Station",
+      "position": "Volunteer - Assistant in IT Classes and Designer",
+      "url": null,
+      "startDate": "2024-06-01",
+      "endDate": null,
+      "summary": "I work with older adults, empowering them to navigate the digital world by teaching essential computer skills, including the use of the Microsoft Office suite. I also design advertising materials  using Figma to promote the organisation’s free activities and services, fostering greater community engagement and participation.",
+      "highlights": [
+        ""
+      ]
+    },{
+      "name": "Independent Web Developer",
+      "position": "Web Developer",
+      "url": null,
+      "startDate": "2022-03-01",
+      "endDate": null,
+      "summary": "I have been working on personal projects to enhance my web development skills, including creating responsive websites, exploring modern frameworks, and implementing best practices in design and functionality. These projects have allowed me to gain hands-on experience and deepen my understanding of front-end and back-end development.",
+      "highlights": [
+        ""
+      ]
+    },{
+      "name": "El sabor de mi cocina",
+      "position": "Co-Founder and Operations Manager",
+      "url": null,
+      "startDate": "2019-06-01",
+      "endDate": "2022-01-01",
+      "summary": "As co-founder of a restaurant specialising in traditional Honduran cuisine, I focused on the digital side of operations. I managed the design and implementation of marketing strategies, including promotional materials and campaigns. Additionally, I oversaw the configuration and maintenance of the POS system to ensure smooth transactions. Beyond the digital realm, I handled procurement for ingredients and operated the till, consistently delivering exceptional service to our valued customers.",
+      "highlights": [
+        ""
+      ]
+    },{
+        "name": "Servicios Profesional en Computación",
+        "position": "Software Developer in Visual Basic .NET",
+        "url": null,
+        "startDate": "2016-04-01",
+        "endDate": "2019-02-01",
+        "summary": "As a Software Developer in Visual Basic .NET, I built and collaborated on software solutions for clients, including a warehouse inventory program, an accounting system, and utilities to adapt a POS system.",
+        "highlights": [
+          ""
+        ]
+      },
     {
       "name": "Servicios Profesional en Computación",
       "position": "IT Technician",
@@ -38,18 +75,7 @@
       "highlights": [
         ""
       ]
-    },
-    {
-        "name": "Servicios Profesional en Computación",
-        "position": "Software Developer in Visual Basic .NET",
-        "url": null,
-        "startDate": "2016-04-01",
-        "endDate": "2019-02-01",
-        "summary": "As a Software Developer in Visual Basic .NET, I built and collabored with software solutions for clients, including a warehouse inventory program, an accounting system, and utilities to adapt a POS system.",
-        "highlights": [
-          ""
-        ]
-      }
+    }
     
   ],
   "volunteer": [{
@@ -189,6 +215,13 @@
     {
         "name": "Astro",
         "level": "Avanzado",
+        "keywords": [
+          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
+        ]
+      },
+      {
+        "name": "Tailwind",
+        "level": "Alto",
         "keywords": [
           "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
         ]
