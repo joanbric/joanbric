@@ -9,7 +9,7 @@ import GitHub from "@/icons/GitHub.astro"
 import WorldMap from "@/icons/WorldMap.astro"
 import type { SocialIcon } from "@/types"
 
-const { name, label, image, location, profiles, phone, email } = basics
+const { name, label, image, location, profiles, phone, email, url } = basics
 const { city, region, postalCode } = location
 
 const SOCIAL_ICONS: SocialIcon = {
@@ -21,7 +21,7 @@ const SOCIAL_ICONS: SocialIcon = {
 const linkedInfo = profiles.find(({ network }) => network === "LinkedIn")
 const linkedUrl = linkedInfo?.url
 
-const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
+const printInfo = [email, phone, linkedUrl, url].filter(Boolean).join(" • ")
 ---
 
 <Section>
@@ -30,7 +30,6 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       <h1>{name}</h1>
       <h2>{label}</h2>
       <span>
-        <WorldMap />
         {city}, {region}, {postalCode}
       </span>
       <footer class="print">
@@ -45,7 +44,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               target="_blank"
               rel="noopener noreferrer"
             >
-              <Mail />
+              <Mail  />
             </a>
           )
         }
@@ -58,6 +57,18 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
               rel="noopener noreferrer"
             >
               <Phone />
+            </a>
+          )
+        }
+        {
+          url && (
+          <a
+              href={url}
+              title={`Visit ${name}'s website at ${url}`}
+              target="_blank"
+              rel="Jhon's personal web page"
+            >
+              <WorldMap />
             </a>
           )
         }
@@ -80,7 +91,7 @@ const printInfo = [email, phone, linkedUrl].filter(Boolean).join(" • ")
       </footer>
     </div>
     <figure>
-      <img src={image} alt={name} />
+      {image && (<img src={image} alt={name} />)}
     </figure>
   </div>
 </Section>
