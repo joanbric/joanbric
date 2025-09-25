@@ -89,19 +89,7 @@
       "Awarded 'Volunteer of the Month'"
     ]
   }],
-  "education": [{
-    "institution": "Instituto San Jose, La Salle",
-    "url": "null",
-    "area": "IT Technician",
-    "studyType": "College",
-    "startDate": "2008-02-01",
-    "endDate": "2013-11-01",
-    "score": "",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  },
-  {
+  "education": [ {
     "institution": "JustIT",
     "url": "https://www.justit.co.uk/",
     "area": "Software Development",
@@ -116,7 +104,19 @@
       "JavaScript",
       "C#"
     ]
-  }],
+  },{
+    "institution": "Instituto San Jose, La Salle",
+    "url": "null",
+    "area": "IT Technician",
+    "studyType": "College",
+    "startDate": "2008-02-01",
+    "endDate": "2013-11-01",
+    "score": "",
+    "courses": [
+      "DB1101 - Basic SQL"
+    ]
+  }
+ ],
   "awards": [{
     "title": "Award",
     "date": "2014-11-01",
