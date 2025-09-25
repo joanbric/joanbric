@@ -100,6 +100,22 @@
     "courses": [
       "DB1101 - Basic SQL"
     ]
+  },
+  {
+    "institution": "JustIT",
+    "url": "https://www.justit.co.uk/",
+    "area": "Software Development",
+    "studyType": "Bootcamp",
+    "startDate": "2025-07-28",
+    "endDate": "2025-09-16",
+    "score": "100",
+    "courses": [
+      "MySQL",
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "C#"
+    ]
   }],
   "awards": [{
     "title": "Award",
