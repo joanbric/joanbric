@@ -24,15 +24,6 @@
   },
   "work": [
     {
-      "name": "Action Station",
-      "position": "Volunteer - Assistant in IT Classes and Designer",
-      "url": "https://actionstation.org.uk/",
-      "startDate": "2024-06-01",
-      "endDate":"2024-12-13",
-      "summary": "I worked with older adults, empowering them to navigate the digital world by teaching essential computer skills, including the use of the Microsoft Office suite. I also designed advertising materials using Figma to promote the organisation’s free activities and services, fostering greater community engagement and participation.",
-      "highlights": ["Customer Service", "Patience", "Team Work"]
-    },
-    {
       "name": "Independent Web Developer",
       "position": "Web Developer",
       "url": null,
@@ -40,6 +31,15 @@
       "endDate": null,
       "summary": "I have been working on personal projects to enhance my web development skills, including creating responsive websites, exploring modern frameworks, and implementing best practices in design and functionality. These projects have allowed me to gain hands-on experience and deepen my understanding of front-end and back-end development.",
       "highlights": [""]
+    },
+    {
+      "name": "Action Station",
+      "position": "Volunteer - Assistant in IT Classes and Designer",
+      "url": "https://actionstation.org.uk/",
+      "startDate": "2024-06-01",
+      "endDate":"2024-12-13",
+      "summary": "I worked with older adults, empowering them to navigate the digital world by teaching essential computer skills, including the use of the Microsoft Office suite. I also designed advertising materials using Figma to promote the organisation’s free activities and services, fostering greater community engagement and participation.",
+      "highlights": ["Customer Service", "Patience", "Team Work"]
     },
     {
       "name": "El sabor de mi cocina",
@@ -81,6 +81,16 @@
     }
   ],
   "education": [
+     {
+      "institution": "JustIT",
+      "url": "https://www.justit.co.uk/",
+      "area": "Software Development",
+      "studyType": "Bootcamp",
+      "startDate": "2025-07-28",
+      "endDate": "2025-09-25",
+      "score": "",
+      "courses": ["HTML", "CSS", "JavaScript", "C#"]
+    },
     {
       "institution": "Instituto San Jose, La Salle",
       "url": "null",
