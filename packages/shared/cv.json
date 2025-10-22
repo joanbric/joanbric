@@ -6,7 +6,7 @@
     "email": "joanbric@gmail.com",
     "phone": "+44 7470 494316",
     "url": "https://www.joanbric.com",
-    "summary": "Full-stack web developer with expertise in Svelte, SvelteKit, and Astro, along with experience in React and Next.js. Proficient in both relational and non-relational databases, I am passionate about crafting high-quality web applications and exploring the ever-evolving landscape of web development. A highly motivated and results-driven professional, I thrive on learning new technologies, solving complex challenges, and contributing to innovative projects. As a collaborative team player, I am always eager to support others and foster a positive development environment.",
+    "summary": "Full-stack web developer with expertise in Svelte, SvelteKit, Astro, React and Next.js. Proficient in both relational and non-relational databases, I am passionate about crafting high-quality web applications and exploring the ever-evolving landscape of web development. A highly motivated and results-driven professional, I thrive on learning new technologies, solving complex challenges, and contributing to innovative projects. As a collaborative team player, I am always eager to support others and foster a positive development environment.",
     "location": {
       "address": "",
       "postalCode": "NE35 9DR",
@@ -15,7 +15,6 @@
       "region": "United Kingdom"
     },
     "profiles": [
-  
       {
         "network": "GitHub",
         "username": "joanbric",
@@ -27,44 +26,39 @@
     {
       "name": "Action Station",
       "position": "Volunteer - Assistant in IT Classes and Designer",
-      "url": null,
+      "url": "https://actionstation.org.uk/",
       "startDate": "2024-06-01",
-      "endDate": null,
-      "summary": "I work with older adults, empowering them to navigate the digital world by teaching essential computer skills, including the use of the Microsoft Office suite. I also design advertising materials  using Figma to promote the organisation’s free activities and services, fostering greater community engagement and participation.",
-      "highlights": [
-        ""
-      ]
-    },{
+      "endDate":"2024-12-13",
+      "summary": "I worked with older adults, empowering them to navigate the digital world by teaching essential computer skills, including the use of the Microsoft Office suite. I also designed advertising materials using Figma to promote the organisation’s free activities and services, fostering greater community engagement and participation.",
+      "highlights": ["Customer Service", "Patience", "Team Work"]
+    },
+    {
       "name": "Independent Web Developer",
       "position": "Web Developer",
       "url": null,
       "startDate": "2022-03-01",
       "endDate": null,
       "summary": "I have been working on personal projects to enhance my web development skills, including creating responsive websites, exploring modern frameworks, and implementing best practices in design and functionality. These projects have allowed me to gain hands-on experience and deepen my understanding of front-end and back-end development.",
-      "highlights": [
-        ""
-      ]
-    },{
+      "highlights": [""]
+    },
+    {
       "name": "El sabor de mi cocina",
       "position": "Co-Founder and Operations Manager",
       "url": null,
       "startDate": "2019-06-01",
       "endDate": "2022-01-01",
       "summary": "As co-founder of a restaurant specialising in traditional Honduran cuisine, I focused on the digital side of operations. I managed the design and implementation of marketing strategies, including promotional materials and campaigns. Additionally, I oversaw the configuration and maintenance of the POS system to ensure smooth transactions. Beyond the digital realm, I handled procurement for ingredients and operated the till, consistently delivering exceptional service to our valued customers.",
-      "highlights": [
-        ""
-      ]
-    },{
-        "name": "Servicios Profesional en Computación",
-        "position": "Software Developer in Visual Basic .NET",
-        "url": null,
-        "startDate": "2016-04-01",
-        "endDate": "2019-02-01",
-        "summary": "As a Software Developer in Visual Basic .NET, I built and collaborated on software solutions for clients, including a warehouse inventory program, an accounting system, and utilities to adapt a POS system.",
-        "highlights": [
-          ""
-        ]
-      },
+      "highlights": [""]
+    },
+    {
+      "name": "Servicios Profesional en Computación",
+      "position": "Software Developer in Visual Basic .NET",
+      "url": null,
+      "startDate": "2016-04-01",
+      "endDate": "2019-02-01",
+      "summary": "As a Software Developer in Visual Basic .NET, I built and collaborated on software solutions for clients, including a warehouse inventory program, an accounting system, and utilities to adapt a POS system.",
+      "highlights": [""]
+    },
     {
       "name": "Servicios Profesional en Computación",
       "position": "IT Technician",
@@ -72,160 +66,135 @@
       "startDate": "2015-02-01",
       "endDate": "2016-04-01",
       "summary": "As an IT Technician for a consulting firm, I was responsible for maintaining the computer equipment and peripherals, as well as the information networks, for a variety of clients.",
-      "highlights": [
-        ""
-      ]
+      "highlights": [""]
     }
-    
   ],
-  "volunteer": [{
-    "organization": "Organization",
-    "position": "Volunteer",
-    "url": "https://organization.com/",
-    "startDate": "2012-01-01",
-    "endDate": "2013-01-01",
-    "summary": "Description…",
-    "highlights": [
-      "Awarded 'Volunteer of the Month'"
-    ]
-  }],
-  "education": [{
-    "institution": "Instituto San Jose, La Salle",
-    "url": "null",
-    "area": "IT Technician",
-    "studyType": "College",
-    "startDate": "2008-02-01",
-    "endDate": "2013-11-01",
-    "score": "",
-    "courses": [
-      "DB1101 - Basic SQL"
-    ]
-  }],
-  "awards": [{
-    "title": "Award",
-    "date": "2014-11-01",
-    "awarder": "Company",
-    "summary": "There is no spoon."
-  }],
+  "volunteer": [
+    {
+      "organization": "Organization",
+      "position": "Volunteer",
+      "url": "https://organization.com/",
+      "startDate": "2012-01-01",
+      "endDate": "2013-01-01",
+      "summary": "Description…",
+      "highlights": ["Awarded 'Volunteer of the Month'"]
+    }
+  ],
+  "education": [
+    {
+      "institution": "Instituto San Jose, La Salle",
+      "url": "null",
+      "area": "IT Technician",
+      "studyType": "College",
+      "startDate": "2008-02-01",
+      "endDate": "2013-11-01",
+      "score": "",
+      "courses": ["DB1101 - Basic SQL"]
+    }
+  ],
+  "awards": [
+    {
+      "title": "Award",
+      "date": "2014-11-01",
+      "awarder": "Company",
+      "summary": "There is no spoon."
+    }
+  ],
   "certificates": [
-      {
-    "name": "Ultimate HTML and CSS Course.",
-    "date": "2021-06-26",
-    "issuer": "Platzi",
-    "url": "https://platzi.com/p/joanbric/curso/2008-html-css/diploma/detalle/"
-  },
-  {
-    "name": "Professional Git and GitHub Course.",
-    "date": "2020-09-09",
-    "issuer": "Platzi",
-    "url": "https://platzi.com/p/joanbric/curso/1557-git-github/diploma/detalle/"
-  },
-  {
-    "name": "Foundations of Node.js Course.",
-    "date": "2020-10-22",
-    "issuer": "Platzi",
-    "url": "https://platzi.com/p/joanbric/curso/1759-fundamentos-node/diploma/detalle/"
-  }
-],
-  "publications": [{
-    "name": "Publication",
-    "publisher": "Company",
-    "releaseDate": "2014-10-01",
-    "url": "https://publication.com",
-    "summary": "Description…"
-  }],
+    {
+      "name": "Ultimate HTML and CSS Course.",
+      "date": "2021-06-26",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/joanbric/curso/2008-html-css/diploma/detalle/"
+    },
+    {
+      "name": "Professional Git and GitHub Course.",
+      "date": "2020-09-09",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/joanbric/curso/1557-git-github/diploma/detalle/"
+    },
+    {
+      "name": "Foundations of Node.js Course.",
+      "date": "2020-10-22",
+      "issuer": "Platzi",
+      "url": "https://platzi.com/p/joanbric/curso/1759-fundamentos-node/diploma/detalle/"
+    }
+  ],
+  "publications": [
+    {
+      "name": "Publication",
+      "publisher": "Company",
+      "releaseDate": "2014-10-01",
+      "url": "https://publication.com",
+      "summary": "Description…"
+    }
+  ],
   "skills": [
     {
       "name": "HTML",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend"]
     },
     {
       "name": "CSS",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Diseño Responsive"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Diseño Responsive"]
     },
     {
       "name": "JavaScript",
       "level": "Master",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "Backend", "Fullstack"
-      ]
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "Fullstack"]
     },
     {
-        "name": "Node",
-        "level": "Avanzado",
-        "keywords": [
-            "Desarrollo Web", "Backend", "JavaScript", "Servidor"
-        ]
+      "name": "Node",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Backend", "JavaScript", "Servidor"]
     },
     {
       "name": "Svelte",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Superset"
-      ]
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Superset"]
     },
     {
-        "name": "SvelteKit",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"
-        ]
-      },
+      "name": "SvelteKit",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "Backend", "JavaScript Superset"]
+    },
     {
       "name": "MySQL",
-      "level": "Avanzado",
-      "keywords": [
-        "Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"
-      ]
+      "level": "Advanced",
+      "keywords": ["Bases de Datos", "SQL", "Almacenamiento de Datos", "Backend"]
     },
     {
       "name": "Git",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente"
-      ]
+      "level": "Advanced",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente"]
     },
     {
       "name": "GitHub",
-      "level": "Avanzado",
-      "keywords": [
-        "Control de Versiones", "Colaboración", "Código Fuente", "Git"
-      ]
+      "level": "Advanced",
+      "keywords": ["Control de Versiones", "Colaboración", "Código Fuente", "Git"]
     },
     {
       "name": "Next.js",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"
-      ]
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "React Framework", "SSR", "Static Generation"]
     },
     {
       "name": "React",
-      "level": "Avanzado",
-      "keywords": [
-        "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-      ]
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
     },
     {
-        "name": "Astro",
-        "level": "Avanzado",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      },
-      {
-        "name": "Tailwind",
-        "level": "Alto",
-        "keywords": [
-          "Desarrollo Web", "Frontend", "JavaScript Library", "UI"
-        ]
-      }
+      "name": "Astro",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    },
+    {
+      "name": "Tailwind",
+      "level": "Advanced",
+      "keywords": ["Desarrollo Web", "Frontend", "JavaScript Library", "UI"]
+    }
   ],
   "languages": [
     {
@@ -234,29 +203,37 @@
     },
     {
       "language": "English",
-      "fluency": "Medium"
+      "fluency": "Conversational"
     }
   ],
-  "interests": [{
-    "name": "Wildlife",
-    "keywords": [
-      "",
-      ""
-    ]
-  }],
-  "references": [{
-    "name": "Jane Doe",
-    "reference": "Reference…"
-  }],
+  "interests": [
+    {
+      "name": "Wildlife",
+      "keywords": ["", ""]
+    }
+  ],
+  "references": [
+    {
+      "name": "Jane Doe",
+      "reference": "Reference…"
+    }
+  ],
   "projects": [
+    {
+      "name": "URL Shortener",
+      "isActive": true,
+      "description": "URL Shortener developed with Astro and deployed with Vercel.",
+      "highlights": ["Share shorter links"],
+      "techStack": ["AstroIcon", "CSS", "Tailwind", "Vercel"],
+      "coverImage": "/projects-covers/urlshortener-mockup.jpg",
+      "url": "https://url.joanbric.com/",
+      "repo": "https://github.com/joanbric/url-shortener"
+    },
     {
       "name": "NameForMy",
       "isActive": true,
       "description": "Generator of existing or unique names that fit your specifications with the help of AI.",
-      "highlights": [
-        "Create your own name",
-        "Developing"
-      ],
+      "highlights": ["Create your own name", "Developing"],
       "techStack": ["SvelteKit", "CSS", "OpenAI"],
       "coverImage": "/projects-covers/nameformy.com-mockup.jpg",
       "url": "https://nameformy.com",
@@ -266,10 +243,7 @@
       "name": "WordMiner",
       "isActive": true,
       "description": "Tool that helps you find the definition of a word in a specific context.",
-      "highlights": [
-        "Tool to study English",
-        "ORC and GPT"
-      ],
+      "highlights": ["Tool to study English", "ORC and GPT"],
       "techStack": ["SvelteKit", "LlamaAI", "Tesseract", "CSS"],
       "coverImage": "/projects-covers/wordminer-mockup.jpg",
       "url": null,
@@ -279,10 +253,7 @@
       "name": "Guiame app",
       "isActive": false,
       "description": "I built Guiame App to empower individuals to conquer complex transportation systems like London's with ease.",
-      "highlights": [
-        "Navigate confidently",
-        "Public transport"
-      ],
+      "highlights": ["Navigate confidently", "Public transport"],
       "techStack": ["SvelteKit", "TFLAPI", "JavaScript", "Algolia", "OpenMap", "CSS"],
       "coverImage": "/projects-covers/wordminer-mockup.jpg",
       "url": null,
@@ -292,10 +263,7 @@
       "name": "WeatheRash",
       "isActive": false,
       "description": "A simple weather web app with animation.",
-      "highlights": [
-        "Weather",
-        "CSS Animation"
-      ],
+      "highlights": ["Weather", "CSS Animation"],
       "techStack": ["JavaScript", "OpenWeather", "HTML", "CSS"],
       "coverImage": "/projects-covers/wordminer-mockup.jpg",
       "url": null,
